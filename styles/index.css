@@ -1,0 +1,33 @@
+body {
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.keys {
+    list-style: none;
+    color: white;
+    font-size: 45px;
+}
+
+.key {
+    margin: 0 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    justify-content: center;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.play {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    background-clip: border-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    transform: scale(1.2);
+}
